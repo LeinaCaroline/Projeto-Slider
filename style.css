@@ -1,0 +1,37 @@
+/* Aqui nós resetamos as configurações padrões do CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif; /*Aplicado para toda a minha aplicação*/
+}
+
+body{
+    background-color: #000;
+    color: #eee; /*cor de fora, só as caixas <p> ??*/
+
+}
+
+header{
+    width: 80%;
+    height: 100px; /*50px*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
+header a{
+    color:#eee;
+    margin-right: 40px; /*para que eles fiquem separados a 40px*/
+    font-weight: 300;
+
+}
+
+.container{
+    height: 100vh; /*100 pequenas partes de altura da tela inteira vem de veel heigth*/
+    width: 100vw; /*100 pequenas partes de largura da tela inteira de largura  vem de veel width*/
+    margin-top: -100px;/*-50px*/
+}
